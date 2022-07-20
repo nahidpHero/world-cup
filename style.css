@@ -35,5 +35,74 @@ body{
     padding-top: 100px;
     padding-right: 100px;   
 }
+
 /* ---------Header section end--------*/
 
+/*-----------------------------------
+--------Main section start-----------------*/
+.container{
+    display: flex;
+    
+}
+.menu{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left:70px; ;
+    width: 250px;
+    height: 100px;
+    background-color: #000000;
+    padding-bottom: 150px;
+}
+.menu-item button{
+    font-size:20px;
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.menu-item button:hover{
+    background-color: #DD0000;
+    color: aliceblue;
+}
+.main-container{
+    margin-top: 100px;
+    margin-left: 50px;  
+
+}
+.matches{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap: 24px;
+    width:253px ;
+    
+}
+.match-banner img{
+    width: 240px;
+}
+.match{
+    width: 240px;
+    height: 350px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.match-button{
+    padding-left: 20px;
+}
+.match-button button{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+}
+.match-button button:hover{
+    background-color: #DD0000;
+    color: aliceblue;
+}
+.match-detail{
+    padding: 20px;
+
+}
+/*-----------------------------------
+--------Main section end-----------------*/
