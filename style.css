@@ -103,6 +103,7 @@ body{
 }
 .match-banner img{
     width:100%;
+    border-radius: 10px;
 }
 .match{
     width: 240px;
