@@ -22,9 +22,11 @@ body{
 }
 .banner-tittle{
     font-size: 36px;
+    align-items: center; 
 }
 .banner-info{
-    font-size: 15px;   
+    font-size: 15px;  
+    align-items: center; 
 }
 .banner-button button{
     height: 50px;
@@ -33,10 +35,7 @@ body{
     background-color: #DD0000;
     color: aliceblue;
 }
-.banner-img img{
-    padding-top: 100px;
-    padding-right: 100px;   
-}
+
 
 /* ---------Header section end--------*/
 
