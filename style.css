@@ -5,6 +5,8 @@ body{
     margin: 0 auto;   
 }
 
+
+
 /* ---------Header section start --------*/
 .banner{
     display: flex;
@@ -84,6 +86,9 @@ body{
     text-decoration: none;
     color: #000;
 
+}
+a:visited {
+    color: #DD0000;
 }
 .menu-item button:hover{
     background-color: #DD0000;
