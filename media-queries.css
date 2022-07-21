@@ -1,0 +1,66 @@
+@media only screen and (max-width: 688px) {
+    .banner, .container {
+      display: grid;
+      grid-template-columns: repeat(1,1fr);  
+      align-items: center;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      border-radius:0;
+    }
+    .banner-img img{
+      padding-left: 40px;
+    }
+    .container .menu{
+      width:100%;
+      align-items: center;
+      margin: 0;
+    }
+    .main-container .matches{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      width: 100%;
+      margin: 0;
+      margin-left: 9%; 
+    }
+    .nav-neme {
+      display: grid;
+      grid-template-columns: repeat(1);
+      justify-content: center;
+    }
+  }
+  @media only screen 
+   and (min-width : 668px) 
+  and (max-width : 992px) {
+    .container{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+    .container .menu{
+      display:grid;
+      grid-template-columns: repeat(3,1fr);
+      width: 90%;
+      margin-top: 30px;
+      border-radius: 20px;
+      padding: 0;
+      
+      
+    }
+    .main-container .matches{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      width: 100%;
+      margin: 0;
+      
+
+    
+    
+    
+  }
+ 
+    
+ 
+
+
+
+
