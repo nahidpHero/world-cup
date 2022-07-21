@@ -67,7 +67,7 @@ body{
 }
 .menu-item button a{
     text-decoration: none;
-    color: #000;
+    color: #000000;
 
 }
 .menu-item button:hover{
@@ -86,28 +86,19 @@ body{
     width:253px ;
     
 }
+.match-banner{
+    display: flex;
+    justify-content: center;
+}
 .match-banner img{
-    width: 240px;
+    width: 100px;
 }
 .match{
-    width: 240px;
-    height: 350px;
-    margin-left: 20px;
+    width: 100%;
     border: 1px solid gainsboro;
     border-radius: 10px;
 }
-.match-button{
-    padding-left: 20px;
-}
-.match-button button{
-    width: 100px;
-    height: 30px;
-    font-size: 15px;
-}
-.match-button button:hover{
-    background-color: #DD0000;
-    color: aliceblue;
-}
+
 .match-detail{
     padding: 20px;
 
