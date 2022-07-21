@@ -32,11 +32,17 @@ body{
     border-radius: 10px;
     background-color: #DD0000;
     color: aliceblue;
+    transition: width 2s;
+    
 }
 .banner-img img{
     padding-top: 100px;
       
 }
+.banner-button button:hover{
+    width: 300px;
+}
+
 
 /* ---------Header section end--------*/
 
