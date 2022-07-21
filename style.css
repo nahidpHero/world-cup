@@ -1,3 +1,5 @@
+
+/* ---------body style --------*/
 body{
     font-family: 'Poppins', sans-serif;   
 }
@@ -63,6 +65,11 @@ body{
     margin-top: 20px;
     
 }
+.menu-item button a{
+    text-decoration: none;
+    color: #000000;
+
+}
 .menu-item button:hover{
     background-color: #DD0000;
     color: aliceblue;
@@ -86,7 +93,8 @@ body{
     width: 240px;
     height: 350px;
     margin-left: 20px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border: 1px solid gainsboro;
+    border-radius: 10px;
 }
 .match-button{
     padding-left: 20px;
@@ -106,3 +114,43 @@ body{
 }
 /*-----------------------------------
 --------Main section end-----------------*/
+
+/*-----------------------------------
+--------footer section start-----------------*/
+footer{
+    width:100%;
+    background-color: #000000;
+    margin-top: 100px;
+    color: aliceblue;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.goal{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+hr{
+    width: 80%;
+    align-items: center;
+    height:1px;
+}
+.nav-neme{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.nav-item a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: aliceblue;
+    
+
+}
+.nav-item a:hover{
+    color: #DD0000;
+}
+/*-----------------------------------
+--------footer section end-----------------*/
